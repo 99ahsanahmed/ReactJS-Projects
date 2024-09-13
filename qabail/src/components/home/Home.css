@@ -1,0 +1,35 @@
+
+.top{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content : center;
+    margin:0px 0px 0px 0px;
+}
+
+.dept{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap:wrap;
+    gap: 15px;
+  }
+
+  .dept li{
+    width : 450px;
+    text-align: center;
+    
+  }
+
+  @media only screen and (max-width:465px ) {
+    .page{
+      background-color: white;
+    }
+    .dept{
+      flex-direction: column;
+    }
+  .dept li{
+    width : 380px;
+    text-align: center;
+  }
+    
+  }
